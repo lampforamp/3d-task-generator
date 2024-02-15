@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: rgb(39, 39, 39);
+    overflow: hidden;
+    color: rgb(191, 191, 191);
+    font-family: 'Roboto', sans-serif;
+}
+
+.page {
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.message-block {
+    border: 1px solid grey;
+    border-radius: 1rem;
+    min-width: 5rem;
+    min-height: 3rem;
+}
+
+.message {
+    padding: 1rem;
+}
