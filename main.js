@@ -56,8 +56,8 @@ function generate () {
         case "PBR Game asset":
             message = `
             <div class="message">
-            Hi there! Here is your today's task: i need you to create the ${object} game asset/prop. Its for AAA game so i think it needs to be preety detailed, but please hold the polycount under control,
-            try to keep it under 30K triangles. Also attach the set of the texture maps: Albedo, Roughness, Metalness, Normal, Ambient occlusion - all at 2048x2048px resolution. Plerase make the preview of
+            Hi there! Here is your today's task: i need you to create the ${object} game asset/prop. Its for AAA game so i think it needs to be preety detailed and possibly will be used in cutscenes, but please hold the polycount under control,
+            try to keep it under 20K triangles. Also attach the set of the texture maps: Albedo, Roughness, Metalness, Normal, Ambient occlusion - all at 2048x2048px resolution. Plerase make the preview of
             the model via Evee, Marmoset, Unity or Unreal. You can find the object references <a href="${link}" target="_blank">here</a>. Just pick up any one you like to proceed and just do it, i believe in you!
             </div>`
           break
@@ -71,8 +71,11 @@ function generate () {
             
             message = `
             <div class="message">
-            Hi! Here is my task for today: i need you to make the game asset of the ${object}. please use the ${typeTitle} style.
-            You can find the target object <a href="${link}" target="_blank">here</a>. 
+            Hi! Really need your help today. We just launched our ${typeTitle} style mobile game, but realized some assets are lacking. I need you to create ${object} model but using the ${typeTitle} style.
+            The game will running just on mobile devices, so model needs to be really lighweight. Keep an eye on the polycount, and keep it under 3K triangles. For the texture -  make just the Diffuse one.
+            Needs to be 1024x1024px resolution with the ambient occlusion baked-in. You can find the target object references <a href="${link}" target="_blank">here</a>. Regarding the style - we can't afford 
+            us a concept artist, cause we're alreaty out of budjet. So will be great if you'll be able to provide your vision of the styling the model. Feel free to use any AI services for making concepts for 
+            modeling. Will attach some screenshots below for you to catch the visual style we need. Thanks!
             </div>`
 
             if (typeTitle == "Sci-Fi") {
