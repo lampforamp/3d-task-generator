@@ -101,8 +101,12 @@ function generate () {
             <p>
             I need you to create ${object} model using the ${typeTitle} style.
             The game will running just on mobile devices, so model needs to be really lighweight. Keep an eye on the polycount, and keep it under 3K triangles. For the textures -  make just the Diffuse and Emission (if needed).
-            Needs to be 1024x1024px resolution with the ambient occlusion baked-in. You can find the target object references <a href="${link}" target="_blank">here</a>, just choose the one you like. Regarding the style - we can't afford 
-            a concept artist, cause we're already out of budget. So would be great if you'll be able to provide your vision of the model styling. Feel free to use any AI services to produce concepts for the future model. 
+            Texture needs to be 1024x1024px resolution with the ambient occlusion baked-in. You can find the target object references <a href="${link}" target="_blank">here</a>, just choose the one you like. 
+            </p>
+            
+            <p>
+            Regarding the style - we can't afford 
+            a concept artist, cause we're already out of budget. Would be great if you'll be able to provide your vision of the model styling. Feel free to use any AI services to produce concepts for the future model. 
             </p>
 
             <p>
