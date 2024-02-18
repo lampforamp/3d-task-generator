@@ -83,10 +83,10 @@ function generate () {
               <div class="example-message">
                 <h2>Here are the target style examples</h2>
                 <div class="images">
-                    <img src="img/Example.jpg" alt="" onclick="openImage(this)"> 
-                    <img src="img/Example.jpg" alt="" onclick="openImage(this)">
-                    <img src="img/Example.jpg" alt="" onclick="openImage(this)">
-                    <img src="img/Example.jpg" alt="" onclick="openImage(this)">
+                    <img src="img/sci-fi_1.jpg" alt="" onclick="openImage(this)"> 
+                    <img src="img/sci-fi_2.jpg" alt="" onclick="openImage(this)">
+                    <img src="img/sci-fi_3.jpg" alt="" onclick="openImage(this)">
+                    <img src="img/sci-fi_4.jpg" alt="" onclick="openImage(this)">
                 </div>
               </div>
               `
