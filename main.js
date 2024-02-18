@@ -117,7 +117,18 @@ function generate () {
             if (typeTitle == "Sci-Fi") {
               examples = `
               <div class="example-message">
-                <h2>For the textures - make the Albedo, Roughness, Metalness, Normal, Ambient Occlusion and Emission (if needed) in 1024x1024px resolution. Here are the target style examples:</h2>
+                <h2>
+                
+                <p>
+                For the textures - make the Albedo, Roughness, Metalness, Normal, Ambient Occlusion and Emission (if needed) in 1024x1024px resolution.
+                </p>
+
+                <p>
+                Here are the target style examples:
+                </p>
+
+                </h2>
+                
                 <div class="images">
                     <img src="img/sci-fi_1.jpg" alt="" onclick="openImage(this)"> 
                     <img src="img/sci-fi_2.jpg" alt="" onclick="openImage(this)">
