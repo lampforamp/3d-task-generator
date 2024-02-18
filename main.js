@@ -48,9 +48,7 @@ function generate () {
         case "Photorealistic rendering":
             message = `
             <div class="message">
-            Hi! Here is your task for today: I want you to make several photorealistic renderings of my product. The product is ${object}. 
-            
-            These are for my Amazon store, so I need renders to look really atractive.
+            Hi! Here is your task for today: I want you to make several photorealistic renderings of my product. The product is ${object}. These are for my Amazon store, so I need renders to look really atractive.
             Overall i need 3 images. One "Hero-Shot" on white background for main image, and 2 "Lifestyle" images where you need to show the product being in use. Feel free to use any free backgrounds for it, or
             generate them via AI. You can find the references for modeling <a href="${link}" target="_blank">here</a>, just go ahead and pick up any ${object} product you like to visualize. Thank in advance! 
             </div>`
@@ -95,7 +93,7 @@ function generate () {
             } else if (typeTitle == "Cartoon") {
               examples = `
               <div class="example-message">
-                <h2>Here are the target style examples</h2>
+                <h2>Here are the target style examples:</h2>
                 <div class="images">
                     <img src="img/cartoon_1.jpg" alt="" onclick="openImage(this)"> 
                     <img src="img/cartoon_2.jpg" alt="" onclick="openImage(this)">
@@ -107,7 +105,7 @@ function generate () {
             } else if (typeTitle == "Low Poly") {
               examples = `
               <div class="example-message">
-                <h2>Here are the target style examples</h2>
+                <h2>Here are the target style examples:</h2>
                 <div class="images">
                     <img src="img/low-poly_1.jpg" alt="" onclick="openImage(this)"> 
                     <img src="img/low-poly_2.jpg" alt="" onclick="openImage(this)">
