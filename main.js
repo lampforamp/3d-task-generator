@@ -74,7 +74,7 @@ function generate () {
 
             <p>
             Its for AAA game so I think it needs to be preety detailed, possibly will be used for cut-scenes. But please keep the polycount under control,
-            try to fit in 20K triangles. Also attach the set of the texture maps: Albedo, Roughness, Metalness, Normal, Ambient occlusion, Emission (if needed) - all at 2048x2048px resolution. Please make the preview of
+            try to fit in 10K triangles. Also attach the set of the texture maps: Albedo, Roughness, Metalness, Normal, Ambient occlusion, Emission (if needed) - all at 2048x2048px resolution. Please make the preview of
             the model via Evee, Marmoset, Unity or Unreal. 
             </p>
             
@@ -100,7 +100,7 @@ function generate () {
 
             <p>
             I need you to create ${object} model using the ${typeTitle} style.
-            The game will running just on mobile devices, so model needs to be really lighweight. Keep an eye on the polycount, and keep it under 3K triangles. For the textures -  make just the Diffuse and Emission (if needed).
+            The game will running just on mobile devices, so model needs to be really lighweight. Keep an eye on the polycount, try to fit it 3K triangles. For the textures -  make just the Diffuse and Emission (if needed).
             Texture needs to be 1024x1024px resolution with the ambient occlusion baked-in. You can find the target object references <a href="${link}" target="_blank">here</a>, just choose the one you like. 
             </p>
             
