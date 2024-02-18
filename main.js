@@ -100,7 +100,7 @@ function generate () {
 
             <p>
             I need you to create ${object} model using the ${typeTitle} style.
-            The game will running just on mobile devices, so model needs to be really lighweight. Keep an eye on the polycount, try to fit in 3K triangles. You can find the target object references <a href="${link}" target="_blank">here</a>, just choose the one you like. 
+            The game will running just on mobile devices, so model needs to be really lightweight. Keep an eye on the polycount, try to fit in 3K triangles. You can find the target object references <a href="${link}" target="_blank">here</a>, just choose the one you like. 
             </p>
             
             <p>
@@ -128,7 +128,7 @@ function generate () {
                 </p>
 
                 </h2>
-                
+
                 <div class="images">
                     <img src="img/sci-fi_1.jpg" alt="" onclick="openImage(this)"> 
                     <img src="img/sci-fi_2.jpg" alt="" onclick="openImage(this)">
@@ -140,7 +140,18 @@ function generate () {
             } else if (typeTitle == "Cartoon") {
               examples = `
               <div class="example-message">
-                <h2>For the textures - make the Albedo, Roughness, Metalness, Normal, Ambient Occlusion and Emission (if needed) in 1024x1024px resolution. Here are the target style examples:</h2>
+                <h2>
+                
+                <p>
+                For the textures - make the Albedo, Roughness, Metalness, Normal, Ambient Occlusion and Emission (if needed) in 1024x1024px resolution.
+                </p>
+
+                <p>
+                Here are the target style examples:
+                </p>
+                
+                </h2>
+                
                 <div class="images">
                     <img src="img/cartoon_1.jpg" alt="" onclick="openImage(this)"> 
                     <img src="img/cartoon_2.jpg" alt="" onclick="openImage(this)">
@@ -152,8 +163,18 @@ function generate () {
             } else if (typeTitle == "Low Poly") {
               examples = `
               <div class="example-message">
-                <h2>For the textures - make just the Diffuse and Emission (if needed).
-                Texture needs to be 1024x1024px resolution with the ambient occlusion baked-in. Here are the target style examples:</h2>
+                <h2>
+                
+                <p>
+                For the textures - make just the Diffuse and Emission (if needed). Texture needs to be 1024x1024px resolution with the ambient occlusion baked-in.
+                </p>
+                
+                <p>
+                Here are the target style examples:
+                </p>
+                
+                </h2>
+                
                 <div class="images">
                     <img src="img/low-poly_1.jpg" alt="" onclick="openImage(this)"> 
                     <img src="img/low-poly_2.jpg" alt="" onclick="openImage(this)">
