@@ -83,7 +83,7 @@ function generate () {
             if (typeTitle == "Sci-Fi") {
               examples = `
               <div class="example-message">
-                <h2>Here are the target style examples</h2>
+                <h2>Here are the target style examples:</h2>
                 <div class="images">
                     <img src="img/sci-fi_1.jpg" alt="" onclick="openImage(this)"> 
                     <img src="img/sci-fi_2.jpg" alt="" onclick="openImage(this)">
