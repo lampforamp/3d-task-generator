@@ -54,7 +54,7 @@ function generate () {
             </p>
 
             <p>
-            These are for my Amazon store, so I need renders to look really atractive. Overall i need 3 images. One "Hero-Shot" on white background for main image, and 2 "Lifestyle" images where you need to show the product being in use. Feel free to use any free backgrounds for it, or
+            These are for my Amazon store, so I need renders to look really atractive. Overall 3 images are needed: one "Hero-Shot" on the white background for the main image, and 2 "Lifestyle" images where you need to show the product being in use. Feel free to use any free backgrounds for it, or
             generate them via AI. You can find the references for modeling <a href="${link}" target="_blank">here</a>.
             </p> 
 
@@ -67,9 +67,21 @@ function generate () {
         case "PBR Game asset":
             message = `
             <div class="message">
-            Hi there! Here is your today's task: i need you to create the ${object} game asset/prop. Its for AAA game so i think it needs to be preety detailed and possibly will be used in cutscenes, but please hold the polycount under control,
-            try to keep it under 20K triangles. Also attach the set of the texture maps: Albedo, Roughness, Metalness, Normal, Ambient occlusion - all at 2048x2048px resolution. Please make the preview of
-            the model via Evee, Marmoset, Unity or Unreal. You can find the object references <a href="${link}" target="_blank">here</a>. Just pick up any one you like to proceed and just do it, i believe in you!
+
+            <p>
+            Hi there! Here is your today's task: I need you to create the ${object} realistic game asset. 
+            </p>
+
+            <p>
+            Its for AAA game so I think it needs to be preety detailed, possibly will be used for cut-scenes. But please keep the polycount under control,
+            try to fit in 20K triangles. Also attach the set of the texture maps: Albedo, Roughness, Metalness, Normal, Ambient occlusion, Emission (if needed) - all at 2048x2048px resolution. Please make the preview of
+            the model via Evee, Marmoset, Unity or Unreal. 
+            </p>
+            
+            <p>
+            You can find the object references <a href="${link}" target="_blank">here</a>. Just pick up any one you like to proceed and just do it, I believe in you!
+            </p>
+
             </div>`
           break
           case "Stylized game asset":
