@@ -94,11 +94,21 @@ function generate () {
             
             message = `
             <div class="message">
-            Hi! Really need your help today. We just launched our ${typeTitle} style mobile game, but realized some assets are lacking. I need you to create ${object} model but using the ${typeTitle} style.
-            The game will running just on mobile devices, so model needs to be really lighweight. Keep an eye on the polycount, and keep it under 3K triangles. For the texture -  make just the Diffuse one.
-            Needs to be 1024x1024px resolution with the ambient occlusion baked-in. You can find the target object references <a href="${link}" target="_blank">here</a>. Regarding the style - we can't afford 
-            us a concept artist, cause we're alreaty out of budjet. So will be great if you'll be able to provide your vision of the styling the model. Feel free to use any AI services for making concepts for 
-            modeling. Will attach some screenshots below for you to catch the visual style we need. Thanks!
+            <p>
+            Hi! Really need your help today. We just launched our ${typeTitle} style mobile game, but realized some assets are lacking. 
+            </p>
+
+            <p>
+            I need you to create ${object} model using the ${typeTitle} style.
+            The game will running just on mobile devices, so model needs to be really lighweight. Keep an eye on the polycount, and keep it under 3K triangles. For the textures -  make just the Diffuse and Emission (if needed).
+            Needs to be 1024x1024px resolution with the ambient occlusion baked-in. You can find the target object references <a href="${link}" target="_blank">here</a>, just choose the one you like. Regarding the style - we can't afford 
+            a concept artist, cause we're already out of budget. So would be great if you'll be able to provide your vision of the model styling. Feel free to use any AI services to produce concepts for the future model. 
+            </p>
+
+            <p>
+            Will attach some screenshots below for you to catch the visual style we need. Thanks!
+            </p>
+
             </div>`
 
             if (typeTitle == "Sci-Fi") {
